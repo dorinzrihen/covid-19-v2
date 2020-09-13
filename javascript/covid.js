@@ -267,8 +267,8 @@ async function availableLocalStorge(){
     }
     else{
         countriesByContinents = JSON.parse(localStorage.getItem('objCountries'));
+        renderButtons();
     }
-    renderButtons();
 }
 
 
