@@ -58,7 +58,7 @@ function renderGraph(){
         }
     }
 });
-    console.log(myChart);
+
 }
 
 function addLoading(){
