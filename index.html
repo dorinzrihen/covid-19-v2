@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha512-s+xg36jbIujB2S2VKfpGmlC3T5V2TF3lY48DX7u2r9XzGzgPsa6wTpOQA7J9iffvdeBN0q9tKzRxVxw1JviZPg==" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-page">
+        <header class="title">
+            <h1>Covid-19 stats.</h1>
+        </header>
+        <div class="loading">
+            <div class="lds-circle"><div></div></div>
+        </div>
+        <div class="corona-info">
+            <div class="chart-container">
+                <canvas id="myChart"></canvas>
+            </div>
+            <div class="corona-info-per-country">
+
+                </div>
+            </div>
+        </div>
+        <div class="info-btn">
+            <div class="conatiner-continent">
+                <button class='btn-continent'>All</button>
+            </div>
+            
+            <div class="selecting-options">
+                <button class="option-btn-selector">confirmed</button>
+                <button class="option-btn-selector">deaths</button>
+                <button class="option-btn-selector">recovered</button>
+                <button class="option-btn-selector">critical</button>
+            </div>
+        </div>
+        <div class="container-countries">
+
+        </div>
+    </div>
+    
+    
+    <script type="module" src="/javascript/covid.js"></script>
+</body>
+</html>
